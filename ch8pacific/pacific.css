@@ -134,7 +134,7 @@ footer {
     justify-content: space-around;
   }
   nav li {
-    border-block-start: none; /* bbn */
+    border-bottom: none; /* bbn */
   }
   .flow {
     display: flex; /* df */
