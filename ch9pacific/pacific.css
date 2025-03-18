@@ -131,7 +131,7 @@ th {
 td,
 th {
   padding: 0.5em;
-  /* border: 2px solid #39c; */
+  border: 2px solid #39c;
 }
 td {
   text-align: center; /* tac */
@@ -203,9 +203,7 @@ tr:nth-last-of-type(odd) {
     flex-wrap: nowrap; /*  */
     justify-content: space-around;
   }
-  nav li {
-    border-bottom: none; /* bdb:n */
-  }
+  
   
 }
 @media (min-width: 1024px) {
@@ -226,6 +224,9 @@ tr:nth-last-of-type(odd) {
   nav {
     text-align: left; /* ta:l */
     padding-left: 1em; /* pl1em */
+  }
+  nav li {
+    border-bottom: none; /* bdb:n */
   }
   @supports (display: grid) {
     nav ul {
